@@ -1,0 +1,28 @@
+.f-pages h2{
+    font-family: 'Montserrat' !important;
+    font-size: 19px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.f-pages p {
+    font-size: 14px !important;
+}
+.f-pages label {
+    font-size: 13px !important;
+}
+.f-pages ul {
+    font-size: 13px !important;
+}
+
+.about-gallery{
+    padding-top: 10px !important;
+}
+
+@media (min-width: 670px){
+    .about-gallery{
+        width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

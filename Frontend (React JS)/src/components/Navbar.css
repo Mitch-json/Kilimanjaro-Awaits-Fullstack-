@@ -1,0 +1,24 @@
+.dark-nav{
+    background-color: rgba(39,37,38, 0.6) !important;
+}
+
+.nav-logo-img{
+    max-width: 140px !important;
+}
+
+@media (max-width: 600px){
+    .nav-logo-img{
+        max-width: 120px !important;
+    }
+
+}
+.nav-logo-img-2{
+    max-width: 70px !important;
+}
+
+@media (max-width: 600px){
+    .nav-logo-img-2{
+        max-width: 70px !important;
+    }
+
+}

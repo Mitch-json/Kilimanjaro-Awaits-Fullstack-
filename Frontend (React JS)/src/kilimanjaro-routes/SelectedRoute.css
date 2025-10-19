@@ -1,0 +1,377 @@
+.book-now:hover{
+    color: #ffffff !important;
+    background-color: #008080 !important;
+}
+
+.find-new-2 a, .find-new-2 button{
+    color: #008080 !important;
+    background-color: #008080 !important;
+}
+.find-new-2 button{
+    font-size: 18px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.find-new-2 a, .find-new-2 button {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border-color: #ffffff !important;
+  }
+  
+  .find-new-2 a, .find-new-2 button {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    /* font-size: 1.15em; */
+    padding: 1em 2em;
+    /* background: #cf2229; */
+    /* background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a31b20), color-stop(1, #cf2229)); */
+    background: -ms-linear-gradient(bottom, #a31b20, #cf2229);
+    background: -moz-linear-gradient(center bottom, #a31b20 0%, #cf2229 100%);
+    background: -o-linear-gradient(#cf2229, #a31b20);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf2229', endColorstr='#a31b20', GradientType=0);
+    border: 1px solid;
+    /* border-color: #96191e #8d171c #801519 #8d171c; */
+    /* -webkit-border-radius: 0.25em; */
+    -moz-border-radius: 0.25em;
+    border-radius: 0.25em;
+    /* -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065); */
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  }
+
+
+.jumbotron-wrapper h2.subheading {
+    border-top: thick solid #fff;
+    padding-top: 20px;
+    /* font-family: "brandon-grotesque", sans-serif; */
+    font-weight: 800;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.subheading {
+    margin-bottom: 20px;
+}
+
+.selected-route-jumbotron{
+    height: 84% !important;
+    min-height: 84% !important;
+}
+
+
+
+@media (max-width: 767px){
+ .jumbotron-wrapper-inner-2 {
+    background-image: url('../assets/wb.png') !important;
+}
+}
+
+.font-block-style {
+    /* font-family: "brandon-grotesque", sans-serif;
+    font-weight: 900; */
+    font-style: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.single-trips .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #272425!important;
+    border-color: #272425!important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Montserrat' !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.section-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#book{
+    display: none;
+}
+@media (max-width: 767px){
+    .nav-tabs > li {
+        width: 100%;
+    }
+    #book{
+        display: block;
+    }
+}
+
+.col-sm-12-custom{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.container-single-trip{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px){
+.col-sm-7 {
+    width: 50.33333333%;
+}
+.col-sm-5 {
+    width: 41.66666667%;
+}
+}
+
+#the-experience .img-responsive {
+    margin-bottom: 20px!important;
+    width: 100%;
+}
+.single-trips #the-experience .new-links {
+    font-weight: normal;
+}
+
+.booking-details-panel {
+    margin-top: 0;
+}
+
+.list-group {
+    padding-left: 0;
+}
+
+li.list-group-item.text-uppercase.single-trip-dates {
+    padding-bottom: 30px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.list-group-item.text-uppercase.single-trip-dates.new, li.hotlist-popup a:hover, li.hotlist-popup a {
+    background-color: #008080;
+    background-image: url('../assets/blue-bg.jpg') !important;
+    background-size: 'cover' !important;
+}
+
+.booking-title, .booking-title a {
+    padding-bottom: 5px;
+}
+.cityselect_form {
+    display: inline;
+}
+
+
+
+.list-group-item.text-uppercase.single-trip-dates.new .cityselect_form #menu {
+    font-family: 'Montserrat';
+    font-size: 13px !important;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.justify-me {
+    border: 0;
+    border-top: 6px solid white;
+}
+
+.justify-me {
+    display: table;
+    margin: 1em auto 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid white; */
+}
+
+.list-group-item.justify-me.new-boxes .inner {
+    width: 33.33%!important;
+}
+
+.list-group-item.justify-me.new-boxes .inner {
+    background-color: #000;
+    background-image: url('../assets/dark-bg.png') !important;
+    background-size: 'cover' !important;
+}
+
+.booking-details-panel .justify-me .inner {
+    padding: 14px 7px;
+}
+
+.justify-me .inner {
+    border-right: 6px solid white;
+}
+.justify-me .inner {
+    display: table-cell;
+    /* padding: 0 5px; */
+    /* border-right: 4px solid white; */
+}
+
+.booking-top {
+    font-size: 13px;
+    line-height: 1.2;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family:  "Montserrat" !important;
+}
+
+.padding-top {
+    padding-top: 8px;
+}
+
+.booking-bottom {
+    color: white;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-bottom span {
+    line-height: 24px;
+    height: 24px;
+}
+
+.well-inverse {
+    /* background-color: #272425; */
+    color: white !important;
+    background-image: url('../assets/dark-bg-2.jpg') !important;
+}
+
+.well {
+    border-radius: 0;
+    border-color: transparent;
+    /* background-color: #fff; */
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    /* margin-bottom: 20px; */
+    /* background-color: #f5f5f5; */
+    border: 1px solid #e3e3e3;
+    /* border-radius: 4px; */
+    /* -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05); */
+    /* box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05); */
+}
+
+.well ul {
+    margin-bottom: 0;
+}
+
+.well ul li {
+    margin-bottom: 15px;
+}
+
+.well-inverse li {
+    list-style: none;
+    position: relative;
+}
+
+.well.new-back ul li {
+    /* font-weight: 400; */
+    color: white;
+    font-size: 14px !important;
+}
+
+.well-inverse li:before {
+    content: url('https://wildwomenexpeditions.com/wp-content/themes/bootstrap3.3.5/images/bullet.png');
+    left: -44px;
+    top: -3px;
+    position: absolute;
+}
+
+.fade {
+    transition: opacity .55s linear;
+}
+
+.trips_heading{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.flex-container5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto !important;
+    align-items: center !important;
+}
+
+.carousel-slide-caption-experience {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.experience-images{
+    width: 100% !important;
+}
+.experience-border-div{
+    width: 100% !important;
+}

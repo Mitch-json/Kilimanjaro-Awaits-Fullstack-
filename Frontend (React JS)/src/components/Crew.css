@@ -1,0 +1,91 @@
+div#drip-ef-crew {
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+}
+
+#drip-ef-crew {
+    font: 0.875rem/1.5rem sans-serif;
+    width: 100%;
+}
+
+#drip-ef-crew h3 {
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: "MamakiloBlack"!important;
+    color: black;
+    line-height: 1.3;
+    font-size: 28px;
+}
+#drip-ef-crew p {
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: "Montserrat"!important;
+    font-size: 15px;
+    color: black;
+    line-height: 1.3;
+}
+
+@media (max-width: 390px){
+    .carousel-slide-crew{
+        width: 90% !important;
+    }
+    #drip-ef-crew h3 {
+        font-size: 28px;
+    }
+    #drip-ef-crew p {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+}
+
+/* #drip-ef-crew > div {
+    margin-bottom: 0.75rem;
+} */
+
+.circular--square { 
+    border-radius: 50%; 
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.crew-image {
+    width: 220px !important;
+    height: 220px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+}
+
+.carousel-slide-crew > .crew-name > h3 {
+    color: #008080 !important;
+    text-transform: uppercase;
+    margin-bottom: 0px !important;
+}
+.carousel-slide-crew > .crew-details > h3 {
+    margin-top: 0px !important;
+    color: black !important;
+    margin-bottom: 0px !important;
+}
+
+.carousel-slide-crew {
+    width: 70%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.flex-container-crew{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto !important;
+    align-items: center !important;
+
+}
+
+.crew-back{
+    background-image: url('../assets/african-pattern.png') !important;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 0 20px;
+}

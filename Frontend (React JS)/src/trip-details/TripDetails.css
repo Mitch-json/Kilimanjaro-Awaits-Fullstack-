@@ -1,0 +1,44 @@
+.ac-label {
+    position: relative;
+    padding: 0.5em 1em;
+    display: block;
+    cursor: pointer;
+    background-color: whiteSmoke;
+    transition: background-color .15s ease-in-out;
+    margin-bottom: 0;
+    color: #333333;
+}
+.ac-label:after{
+    content: "+";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 100%;
+    line-height: 2.25em;
+    text-align: center;
+    background-color: #e5e5e5;
+    transition: background-color .15s ease-in-out;
+}
+.ac-label:hover:after{
+    background-color: #b5b5b5;
+}
+
+.ac-text-visible {
+    opacity: 1 !important;
+    height: auto !important;
+}
+
+.ac-text, .ac-sub-text {
+    opacity: 0;
+    height: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.ac-label:hover {
+    background-color: #999;
+}
+.ac-input{
+    display: none;
+}
